@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+        ul {
+            list-style-type: circle;
+            list-style-position: outside;
+            background-color: bisque;
+        }
+    
+       ol > li {
+        background-color: rgb(114, 207, 207);
+       }
+
+       #h2Ol {
+        color: blueviolet;
+       }
+       .red-text {
+        color: rgb(221, 29, 29);
+       }
+       dt {
+        padding-left: 30px;
+        font-weight: 600;
+       }
+
+       dd {
+        font-style: italic;
+       }
+       li {
+        text-align:justify;
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 class="red-text">Списки HTML</h1>
+<section>
+    <h2 id="h2Ol">Нумерованный список (Ordered List)</h2>
+    <ol type="1" start="6">
+        <li>Элемент списка (List Item)</li>
+        <li>Элемент списка (List Item)</li>
+        <li>Элемент списка (List Item)</li>
+        <li>Элемент списка (List Item)</li>
+    </ol>
+</section>
+<section>
+    <h2>Ненумерованный список (Unordered List)</h2>
+    <ul>
+        <li>Элемент списка (List Item)</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa modi error, quidem alias reiciendis ratione suscipit mollitia doloribus adipisci non at blanditiis facere sit accusamus eligendi porro! Doloremque, maxime fugiat!</li>
+    </ul>
+</section>
+<section>
+    <h2 class="red-text">Вложенный список (Nested list)</h2>
+    <ol>
+        <li>Элемент списка (List Item)</li>
+        <ul>
+            <li>Вложенный список</li>
+            <li>Вложенный список</li>
+        </ul>
+        <li>Элемент списка (List Item)</li>
+    </ol>
+    <h2>Описательный список</h2>
+    <di>
+        <dt>Элемент списка</dt>
+        <dd>Описание элемента</dd>
+    </di>
+
+</body>
+</html>
