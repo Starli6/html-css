@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        #container {
+        background-color: rgb(238, 234, 228);
+        }
+        span {
+            color: rgb(213, 45, 45);
+            display: inline-block;
+            margin-left: 1em;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            list-style-image: url(icons/unchecked_16.png);
+            padding: 15px;
+            list-style-position: inside;
+        }
+        li:nth-child(odd) {
+            background-color: rgb(149, 203, 215);
+        }
+        .chacked {
+            list-style-image: url(icons/checked_16.png);
+            text-decoration:line-through;
+        }
+        
+        li:nth-child(even) {
+            background-color: lightblue
+        }
+        li.chacked {
+            background-color: lightgrey;
+        }
+        h1 {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <h1>My To Do List</h1>
+<ul>
+    <li>Hit the gym<span>&times;</span></li>
+    <li class="chacked">Pay bills<span>&times;</span></li>
+    <li>Meet John<span>&times;</span></li>
+    <li>Buy eggs<span>&times;</span></li>
+    <li class="chacked">Read a book<span>&times;</span></li>
+    <li>Organize office<span>&times;</span></li>
+    <li>Eat dinner<span>&times;</span></li>
+    <li>Buy apples<span>&times;</span></li>
+    <li>Meet George<span>&times;</span></li>
+    <li>Feed the cat<span>&times;</span></li>
+    <li class="chacked">Write a letter<span>&times;</span></li>
+    <li>Run 1 km<span>&times;</span></li>
+</ul>
+    </section>
+</body>
+</html>
