@@ -1,0 +1,60 @@
+html {
+    font-family: sans-serif;
+    
+  }
+th {
+border: 1px solid rgb(255, 255, 255);
+}
+td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+table {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    /*border-spacing: 10px;*/
+    /*empty-cells: hide;*/
+}
+.col-1 {
+    background-color: rgb(238, 242, 243);
+}
+.col-2 {
+    background-color: rgb(131, 234, 225);
+    
+}
+.col-3 {
+    background-color: rgb(157, 207, 64);
+}
+.col-4 {
+    background-color: rgb(238, 238, 74);
+}
+.col-5 {
+    background-color: rgb(228, 113, 68);
+}
+tbody {
+    text-align: center;
+}
+thead {
+    text-align: center;
+}
+tfoot {
+    text-align: center;
+}
+.box {
+    width: 300px;
+    box-sizing:border-box;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(145, 118, 118);
+    text-shadow: 2px 2px 2px rgb(198, 67, 67);
+    display: inline-block;
+}
+p {
+    margin: 0;
+}
+

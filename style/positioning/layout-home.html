@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body {
+            width: 700px;
+        }
+        header {
+            background-color: hsl(188.32deg 100% 80.2%);
+            position: relative;
+            height: 50px;
+            margin: 8px;
+            padding-left: 17px;
+            border-radius: 3px;
+            box-shadow: 2px 2px hsla(189, 59%, 70%, 0.945);
+            padding-top: 5px;
+        }
+        nav {
+            background-color: hsl(85.71deg 89.74% 92.35%);
+            position: absolute;
+            bottom: 6px;
+            width: 96%;
+            left: 8px;
+            padding-left: 10px;
+            border-radius: 3px;
+            box-shadow: 2px 2px hsl(87, 24%, 73%);
+            padding-bottom: 2px;
+        }
+        article {
+            background-color: hsl(212.37deg 97.44% 84.71%);
+            position: relative;
+            margin: 8px;
+            margin-right: 5px;
+            height: 295px;
+            float: left;
+            width: 60%;
+            padding-left: 17px;
+            border-radius: 3px;
+            box-shadow: 2px 2px hsl(212, 42%, 69%);
+            padding-top: 5px;
+        }
+        #section1 {
+            background-color:  rgb(255 181 107);
+            position: absolute;
+            margin: 8px;
+            width: 79%;
+            height: 70px;
+            margin-top: 12px;
+            margin-left: -7px;
+            padding-left: 70px;
+            border-radius: 3px;
+            box-shadow: 2px 2px rgb(214, 151, 88);
+            padding-top: 5px;
+        }
+        #section2 {
+            background-color: rgb(255 181 107);
+            position: absolute;
+            margin: 8px;
+            margin-top: 100px;
+            width: 79%;
+            height: 70px;
+            margin-left: -7px;
+            padding-left: 70px;
+            border-radius: 3px;
+            box-shadow: 2px 2px rgb(214, 151, 88);
+            padding-top: 5px;
+        }
+        #section3 {
+            background-color: rgb(255 181 107);
+            position: absolute;
+            margin: 8px;
+            margin-top: 190px;
+            width: 79%;
+            height: 70px;
+            margin-left: -7px;
+            padding-left: 70px;
+            border-radius: 3px;
+            box-shadow: 2px 2px rgb(214, 151, 88);
+            padding-top: 5px;
+        }
+        aside {
+            background-color: hsl(264.91deg 55.79% 81.37%);
+            float: right;
+            height: 295px;
+            width: 30%;
+            margin: 8px;
+            margin-left: 5px;
+            padding-left: 17px;
+            border-radius: 3px;
+            box-shadow: 2px 2px hsl(265, 31%, 67%);
+            padding-top: 5px;
+        }
+        footer {
+            background-color: hsl(190.62deg 90.4% 75.49%);
+            margin: 8px;
+            height: 25px;
+            padding-top: 5px;
+            padding-left: 17px;
+            border-radius: 3px;
+            box-shadow: 2px 2px hsl(191, 47%, 61%);
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .linear-gradient1 {
+            background: linear-gradient(hsl(184, 100%, 85%), hsl(188, 100%, 65%));
+        }
+        .linear-gradient2 {
+            background: linear-gradient(hsl(212, 100%, 87%), hsl(212, 100%, 68%));
+        }
+        .linear-gradient3 {
+            background: linear-gradient(rgb(255, 196, 138), rgb(252, 135, 19));
+        }
+        .linear-gradient4 {
+            background: linear-gradient(hsl(265, 100%, 88%), hsl(265, 100%, 70%));
+        }
+        .linear-gradient5 {
+            background: linear-gradient(hsl(191, 100%, 84%), hsl(191, 100%, 62%));
+        }
+    </style>
+</head>
+<body>
+    <header class="linear-gradient1">
+        header
+        <nav>nav</nav>
+    </header>
+    <article class="linear-gradient2">
+        article
+        <section class="linear-gradient3" id="section1">section</section>
+        <section class="linear-gradient3" id="section2">section</section>
+        <section class="linear-gradient3" id="section3">section</section>
+    </article>
+    <aside class="linear-gradient4">aside</aside>
+    <div class="clearfix"></div>
+    <footer class="linear-gradient5">footer</footer>
+</body>
+</html>
