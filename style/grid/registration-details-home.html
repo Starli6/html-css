@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Details</title>
+    <style>
+        body { 
+           color: aliceblue;
+           width: 700px;
+           background-color: rgb(66 105 156);
+        }
+        li {
+           list-style-type:none; 
+        }
+        .left1 {
+            margin-left: 10px;
+            width: 250px;
+        }
+        .left2 {
+            margin-left: 10px;
+            width: 250px;
+        }
+        .left3 {
+            margin-left: 10px;   
+        }
+        .left7 {
+            margin-left: 10px;  
+            width: 150px; 
+        }
+        .left4 {
+            margin-left: 10px;
+            width: 30px;
+        }
+        .left5 {
+            margin-left: 10px;
+            width: 40px;
+        }
+         .left6 {
+            margin-left: 10px;
+            width: 250px;
+        }
+        .center1 {
+            margin-left: 70px;
+        }
+        .center2 {
+            margin-left: 85px;
+        }
+        .center3 {
+            margin-left: 91px;
+        }
+        .center4 {
+            margin-left: 55px;
+        }
+        .center5 {
+            margin-left: 65px;
+        }
+        
+    </style>
+</head>
+<body>
+  <fieldset>
+    <legend>Registration Details</legend>
+    <ul>
+        <li>
+            <label class="center1" clfor="university">University :</label>
+        <input class="left1" type="text" id="university" size="20px"/>
+        </li>
+        <li>
+            <p><label class="center2" for="institute">Institute :</label>
+        <input class="left2" type="text" id="institute"/></p>
+        </li>
+       <li>
+            <p><label class="center3" for="branch">Branch :</label>
+        <select class="left7" id="branch" name="branch">
+            <option value="--select--">--select--</option></select><p>
+       </li>
+           <li>
+            <p><label class="center3" for="degree">Degree :</label>
+        <select class="left3" id="degree" name="degree">
+            <option value="--select--">--select--</option></select>
+        <input type="radio" id="pursuing" name="pursuing" value="pursuing">
+            <label for="pursuing">Pursuing</label>
+        <input type="radio" id="completed" name="completed" value="completed">
+            <label for="completed">Completed</label></p>
+        </li>
+        <li>
+            <p class="center4"> Avarage CPI :
+        <input class="left4" type="number" id="upto" name="upto" min="1" max="50">
+            <label for="upto">Upto</label>
+        <input class="left4" type="number" id="semesters" name="semesters" min="1" max="50">
+            <label for="semesters">The Semesters</label></p>
+        </li>
+        <li>
+            <p class="center5">Experience :
+        <input class="left5" type="number" id="years" name="years" min="0" max="100">
+            <label for="years">Years</label></p>
+  
+        </li>
+        <li>
+            <label class="center6" for="website">You Website Or Blog :</label>
+        <input class="left6" type="url" id="website" name="website" value="http://">
+        </li>
+    </ul>
+    </fieldset>
+    </form>
+</body>
+</html>
